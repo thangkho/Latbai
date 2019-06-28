@@ -14,6 +14,8 @@
 		7F2E0B4022C497CA00CC7AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E0B3E22C497CA00CC7AFE /* LaunchScreen.storyboard */; };
 		7F2E0B4B22C497CA00CC7AFE /* LatbaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E0B4A22C497CA00CC7AFE /* LatbaiTests.swift */; };
 		7F2E0B5622C497CA00CC7AFE /* LatbaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E0B5522C497CA00CC7AFE /* LatbaiUITests.swift */; };
+		7F2E0B6822C4984300CC7AFE /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E0B6622C4984300CC7AFE /* ItemCell.swift */; };
+		7F2E0B6922C4984300CC7AFE /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E0B6722C4984300CC7AFE /* ItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7F2E0B5122C497CA00CC7AFE /* LatbaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatbaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2E0B5522C497CA00CC7AFE /* LatbaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatbaiUITests.swift; sourceTree = "<group>"; };
 		7F2E0B5722C497CA00CC7AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2E0B6622C4984300CC7AFE /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		7F2E0B6722C4984300CC7AFE /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		7F2E0B3422C497C500CC7AFE /* Latbai */ = {
 			isa = PBXGroup;
 			children = (
+				7F2E0B6322C497E600CC7AFE /* ItemCell */,
 				7F2E0B3522C497C500CC7AFE /* AppDelegate.swift */,
 				7F2E0B3722C497C500CC7AFE /* ViewController.swift */,
 				7F2E0B3922C497C500CC7AFE /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				7F2E0B5722C497CA00CC7AFE /* Info.plist */,
 			);
 			path = LatbaiUITests;
+			sourceTree = "<group>";
+		};
+		7F2E0B6322C497E600CC7AFE /* ItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E0B6622C4984300CC7AFE /* ItemCell.swift */,
+				7F2E0B6722C4984300CC7AFE /* ItemCell.xib */,
+			);
+			path = ItemCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2E0B6922C4984300CC7AFE /* ItemCell.xib in Resources */,
 				7F2E0B4022C497CA00CC7AFE /* LaunchScreen.storyboard in Resources */,
 				7F2E0B3D22C497CA00CC7AFE /* Assets.xcassets in Resources */,
 				7F2E0B3B22C497C500CC7AFE /* Main.storyboard in Resources */,
@@ -258,6 +273,7 @@
 			files = (
 				7F2E0B3822C497C500CC7AFE /* ViewController.swift in Sources */,
 				7F2E0B3622C497C500CC7AFE /* AppDelegate.swift in Sources */,
+				7F2E0B6822C4984300CC7AFE /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
